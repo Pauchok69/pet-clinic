@@ -11,7 +11,7 @@
 
     <groupId>com.andy</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>pet-clinic</name>
     <description>pet-clinic</description>
@@ -51,6 +51,6 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:Pauchok69/pet-clinic.git</developerConnection>
-      <tag>pet-clinic-1.1</tag>
+      <tag>HEAD</tag>
   </scm>
 </project>
