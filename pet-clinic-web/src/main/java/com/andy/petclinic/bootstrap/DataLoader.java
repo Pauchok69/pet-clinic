@@ -33,6 +33,7 @@ public class DataLoader implements CommandLineRunner {
         owner2.setLastName("Glann");
 
         ownerServiceMap.save(owner2);
+
         System.out.println("Loaded Owners...");
 
         Vet vet1 = new Vet();
@@ -48,6 +49,7 @@ public class DataLoader implements CommandLineRunner {
         vet2.setLastName("Mitchel");
 
         vetServiceMap.save(vet2);
+
         System.out.println("Loaded Vets...");
     }
 }
